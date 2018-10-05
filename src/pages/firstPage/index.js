@@ -68,7 +68,7 @@ class FirstPage extends Component {
       <div>
         <h4>第一个页面</h4>
         <span>{time}</span>
-        <button onClick={this.addTime}>增加</button>
+        <button onClick={this.addTime}>增加3</button>
         <DatePicker
           // defaultValue={moment().subtract(1, 'months')}
           allowClear={false}
