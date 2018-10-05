@@ -49,7 +49,7 @@ class FirstPage extends Component {
     const pickDate = moment(endValue);
     const diffDays = pickDate.diff(moment(startValue), 'days'); //相差几天
     if (diffDays > 364) {
-      console.log('相差超过一年!');
+      console.log('相差超过一年!!!');
     }
 
     // const time1 = Date.parse(moment(startValue).format(dateFormat));
